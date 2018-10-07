@@ -1,9 +1,10 @@
 class CircularLinkedNode:
+	
 
 	# Default constructor for the node class.
 	def __init__(self, value):
 		
-		self.val = value
+		self.value = value
 		self.next = None
 	
 	# Getter for the data in the list
@@ -21,8 +22,3 @@ class CircularLinkedNode:
 	
 		self.next = _new_next
 		
-	
-		
-	
-	
-	
